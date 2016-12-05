@@ -8,21 +8,21 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <%= link_to "Project Unify", root_path, class: "navbar-brand" %>
+        <%= link_to 'Phadder', root_path, class: 'navbar-brand' %>
       </div>
       <div class="collapse navbar-collapse" id="godmin-navbar-collapse">
         <ul class="nav navbar-nav">
-          <%= render partial: File.join(engine_wrapper.namespaced_path, "shared/navigation") %>
+          <%= render partial: File.join(engine_wrapper.namespaced_path, 'shared/navigation') %>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <%= render partial: File.join(engine_wrapper.namespaced_path, "shared/navigation_aside") %>
+          <%= render partial: File.join(engine_wrapper.namespaced_path, 'shared/navigation_aside') %>
         </ul>
       </div>
     </div>
   </nav>
   <div class="container">
-    <%= render "layouts/godmin/content" %>
+    <%= render 'layouts/godmin/content' %>
   </div>
 <% end %>
 
-<%= render "layouts/godmin/layout" %>
+<%= render 'layouts/godmin/layout' %>
