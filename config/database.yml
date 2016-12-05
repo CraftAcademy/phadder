@@ -5,12 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: unify_development
+  database: phadder_development
 
 test: &test
   <<: *default
-  database: unify_test
+  database: phadder_test
 
 production:
   <<: *default
-  database: unify_production
+  database: phadder_production
