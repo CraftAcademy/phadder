@@ -14,7 +14,7 @@ gem 'godmin'
 gem 'godmin-tags'
 gem 'apipie-rails'
 gem 'rack-cors', require: 'rack/cors'
-gem 'acts-as-taggable-on', :git => 'https://github.com/mbleigh/acts-as-taggable-on'
+gem 'acts-as-taggable-on', git: 'https://github.com/mbleigh/acts-as-taggable-on'
 gem 'devise'
 gem 'simple_token_authentication', '~> 1.0'
 gem 'omniauth'
@@ -38,6 +38,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'launchy'
   gem 'faker'
+  gem 'dotenv-rails'
  end
 
 group :development do
