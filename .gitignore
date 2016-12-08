@@ -24,3 +24,6 @@ coverage/
 .byebug_history
 
 dump.rdb
+
+# Ignore env file
+.env

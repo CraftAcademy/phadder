@@ -1,8 +1,9 @@
 require 'fb_graph2'
 module Api::V1::ActivityFeed
   #PROD_TOKEN = "#{ENV['FACEBOOK_APP_ID']}|#{ENV['FACEBOOK_APP_SECRET']}"
+
   TOKEN = ENV['TOKEN']
-  FB_PAGE = '1660157410904515'
+  FB_PAGE = '1280120378677887' #Phadder page
 
   def self.get_fb_feed
     page = FbGraph2::Page.new(FB_PAGE).authenticate(TOKEN).fetch
